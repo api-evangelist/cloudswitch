@@ -1,8 +1,27 @@
 aid: cloudswitch
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudswitch.png
 name: CloudSwitch
-description: 'CloudSwitch is a company surfaced as a portfolio company of matrix-partners and added to
-  the API Evangelist network as a stub for enrichment. Sector: infrastructure. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'CloudSwitch was a cloud-infrastructure software startup founded in 2008 by Ellen Rubin
+  and John Considine and headquartered in Burlington, Massachusetts. Its flagship product, CloudSwitch
+  Enterprise, was a downloadable software appliance that installed into VMware and Xen environments and
+  enabled enterprises to migrate and run existing Windows and Linux virtual machines in public clouds
+  such as Amazon EC2 and Terremark without re-architecting them, preserving networking and security
+  boundaries. The company raised roughly $15.4M across two rounds from Matrix Partners, Atlas Venture,
+  and Commonwealth Capital Ventures, and was acquired by Verizon in August 2011 and folded into its
+  Terremark cloud services unit. The company is defunct: it operates no independent website, developer
+  portal, or API, so this profile remains a historical portfolio-lead stub with no live surface to
+  enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/cloudswitch/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +29,28 @@ x-backed-by:
 - matrix-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: acquired-by-verizon-2011
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Infrastructure
+- Cloud
+- Cloud Migration
+- Hybrid Cloud
+- Virtualization
+- Enterprise
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
